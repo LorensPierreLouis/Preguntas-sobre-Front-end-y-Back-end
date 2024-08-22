@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=New+Amsterdam&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+body{
+    background-image: url(./imagenes/forndend-backend-post2.jpg);
+    background-size: 70%;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: rgb(76, 139, 139);
+    width: 100vh;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h1{
+
+    font-size: 4rem;
+   font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    background-color: rgb(7, 59, 82);
+    top: 90%;
+    bottom: 0%;
+    align-items: center;
+    gap: 30px;
+} 
+
+footer p{
+    color: aliceblue;
+    font-family: "inter";
+    font-size: 24px;
+}
+    
+.contactos{
+    display: flex;
+    gap: 20px;
+    vertical-align: baseline;
+
+}
+.link_1{
+    position: relative;
+    top: 20%;
+}
+.link_2{
+    height: -50%;
+}
+.link_3{
+    position: relative;
+    top:20%;
+}
+
+@media(max-width: 800px){
+    body{
+        background-size: 100%;
+        background-position-x: center;
+
+        width: auto;
+        height: auto;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+
+    h1{
+
+        font-size: 2rem;
+
+    
+    }
+            
+    footer{
+        flex-direction: column;
+    
+        top: 80%;
+        
+        gap: 10px;
+
+    } 
+    footer p{
+        padding-left: 10px;
+        color: aliceblue;
+        font-family: "inter";
+        font-size: 1rem;
+    }
+        
+    .contactos{
+        display: flex;
+        gap: 10px;
+        vertical-align: baseline;
+        left: 30px;
+    
+    }
+
+    
+    
+    
+
+}
+
+@media(max-width: 300px){
+    body{
+        background-image: none;
+
+        width: auto;
+        height: auto;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+
+    h1{
+
+        font-size: 1.5rem;
+    }
+            
+    footer{
+        display: flex;
+        flex-direction: column;
+        top: 80%;
+        
+        gap: 5px;
+
+    } 
+    
+    footer p{
+        padding-left: 20px;
+        color: aliceblue;
+        font-family: "inter";
+        font-size: 1rem;
+
+    }
+        
+    .contactos{
+        display: flex;
+        gap: 10px;
+        vertical-align: baseline;
+        size: 70%;
+    
+    }
+
+    
+    
+    
+
+}
